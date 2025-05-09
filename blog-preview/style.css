@@ -62,3 +62,96 @@ h1:hover {
 .bt {
   font-weight: 500;
 }
+@media (max-width: 320px) {
+  .container {
+    width:2;
+    padding: 1rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-image {
+    width: 16rem;
+    border-radius: 1rem;
+  }
+  h1 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .card-content p {
+    width: 1rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    font-size: 16px;
+  }
+ 
+}
+@media (max-width: 375px) {
+  .container {
+    width: 90%;
+    padding: 1rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-image {
+    width: 19rem;
+    border-radius: 1rem;
+  }
+  h1 {
+    font-size: 22px;
+    margin-top: 0;
+  }
+  .card-content p {
+    width: 19rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    font-size: 16px;
+  }
+}
+@media (max-width: 425px) {
+   .container {
+    width: 90%;
+    padding: 1rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-image {
+    width: 22rem;
+    border-radius: 1rem;
+  }
+  h1 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+  .card-content p {
+    width: 22rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+   .container {
+    width: 50%;
+    padding: 1rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-image {
+    width: 22rem;
+    border-radius: 1rem;
+  }
+  h1 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+  .card-content p {
+    width: 22rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    font-size: 16px;
+  }
+}
